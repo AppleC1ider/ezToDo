@@ -21,6 +21,11 @@ body{
   background-color:#FAFBFC;
 }
 
+.inline-block {
+  display: inline-block;
+  margin: 0px;
+}
+
 .main-div{
 height:37.5em;
 width:50em;
@@ -98,12 +103,20 @@ ul{
   width:20em;
   border-radius: 5px;
   padding-top:1em;
+  overflow:scroll;
 }
 
 li{
-  display:inline-block;
+  display:block;
   list-style: none;
   padding-top:.5em;
   padding-bottom:.5em;
   margin-left: .3em;
+
+}
+
+.box{
+  float:left;
+  margin-right:2em;
+
 }
